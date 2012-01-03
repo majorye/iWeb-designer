@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>web designer</title>
+    <style type="text/css">
+        .ui-state-highlight {
+            background-color: #9acd32;
+        }
+
+        .content {
+            height: 800px;;
+            width: 100%;
+        }
+
+        .wh100 {
+            float: left;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            z-index: 100;
+        }
+
+        .cleft {
+            width: 80%;
+            height: 800px;;
+            float: left;
+        }
+
+        .cright {
+            width: 19%;
+            height: 800px;;
+            float: left;
+        }
+
+        /**single tab top**/
+        .singletab-tt {
+            height: 28px;
+            background: url(http://img.china.alibaba.com/cms/upload/detail/bg_tp.png) repeat-x 0 0px;
+            border-bottom: 1px solid #DCDCDC;;
+        }
+
+        .singletab-tt h2 {
+            margin-left: 15px;
+            float: left;
+            height: 24px;
+            line-height: 28px;
+            font-weight: bold;
+            color: #616161;
+        }
+
+        /**single tab right top**/
+        .singletab-rt {
+            float: right;
+            margin-right: 8px;
+            color: #DCDCDC;
+            line-height: 28px;
+            visited: #DCDCDC;
+        }
+
+        .singletab-rt a:link, .singletab-rt a:visited {
+            color: #999999;
+        }
+
+        /**single tab conent**/
+        .singletab-content .inf-list {
+            margin: 15px 0 0 15px;
+        }
+
+        .singletab-content  .inf-list  li {
+            background: url(http://img.china.alibaba.com/cms/upload/detail/bg_tp.png) no-repeat 0px -22px;
+            padding-left: 7px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+    </style>
+    <link type="text/css" href="css/fdev-float.css" rel="stylesheet">
+    <script type="text/javascript " src="lib/fdev-min.js"></script>
+    <script type="text/javascript" src="lib/system.js"></script>
+    <script type="text/javascript" src="lib/network.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="cleft">
+        <div class="wh100"></div>
+        <div class="wh100"></div>
+        <div class="wh100"></div>
+        <div class="wh100"></div>
+    </div>
+    <div class="cright">
+        <div class="singletab-tt">
+            <h2>Layout</h2>
+        </div>
+        <div class="singletab-content">
+            <ul class="inf-list">
+                <li id="grid-18" classtype="LAYOUT" class="LAYOUT">712*240 Height:<input type="text" value="100"/></li>
+            </ul>
+        </div>
+        <div class="singletab-tt">
+            <h2>UI component</h2>
+        </div>
+        <div class="singletab-content">
+            <ul class="inf-list">
+                <li id="singletab" classtype="COMPONENT" class="COMPONENT">single tab</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+     ali.ux.system.start();
+</script>
+</body>
+</html>

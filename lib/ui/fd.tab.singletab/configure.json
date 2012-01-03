@@ -1,0 +1,6 @@
+{
+    "id":"fd.tab.singletab",
+    "template":"singletab.html",
+    "jsdep":[],
+    "cssdep":[]
+}
